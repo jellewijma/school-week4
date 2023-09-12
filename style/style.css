@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+
+    overflow-x: hidden;
+
+    background-color: #9ea3b0;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    width: 100vw;
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #546a7b;
+
+    border-bottom: #0d1f2d 3px solid;
+}
+
+.container {
+    width: 80vw;
+
+    margin: 0 auto;
+}
+
+nav div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    background-color: #546a7b;
+}
+
+.link {
+    padding: 20px;
+    text-decoration: none;
+    color: #0d1f2d;
+}
+
+.logo {
+    width: 15vw;
+
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #0d1f2d;
+
+    margin-top: 60px;
+}
+
+.product {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    margin-bottom: 80px;
+
+    /* background-color: #546a7b; */
+}
+
+.product-flex {
+    width: 100%;
+    height: 100%;   
+
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.product-img {
+    width: 50vw;
+    background-color: #546a7b;
+
+    border-radius: 10px;
+}
+
+.product-info {
+    width: 25vw;
+}
+
+.product-info h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #0d1f2d;
+    margin-top: 0px;
+}
+
+.product-info p {
+    font-size: 1rem;
+    color: #0d1f2d;
+}
+
+.product-info button {
+    width: 100%;
+    height: 5vh;
+
+    margin-top: 10px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #0d1f2d;
+    color: #fff;
+}
+
+hr {
+    width: 100vw;
+    height: 2px;
+
+    background-color: #0d1f2d;
+    color: #0d1f2d;
+    border: none;
+}
+
+.omschrijving {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    /* background-color: #546a7b; */
+}
+
+.overzicht {
+    width: 30vw;
+
+    background-color: #546a7b;
+
+    padding: 10px;
+    /* margin: 20px; */
+
+    border-radius: 10px;
+}
+
+.omschrijving-text {
+    width: 45vw;
+}
+
+.h2 {
+    font-size: 1.5rem;
+    color: #0d1f2d;
+    font-weight: bold;
+}
+
+.aanraders {
+    background: #546a7b;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.aanraders .container {
+    width: 60vw;
+}
+
+.aanraders h2 {
+    text-align: center;
+}
+
+.list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.list img {
+    width: 10vw;
+}
+
+footer{
+    width: 100vw;
+    height: 10vh;
+    background: #0d1f2d;
+    
+    display: flex;
+    align-items: center;
+}
+
+footer .container {
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-link {
+text-decoration: none;
+color: #9ea3b0;
+}
